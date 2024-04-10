@@ -1,4 +1,15 @@
 #include "Login.h"
+#include <iomanip>
+#include <iostream>
+#include <map>
+#include <regex>
+#include <sstream>
+#include <cpr/cpr.h>
+#include <openssl/des.h>
+#pragma warning(disable : 4996)
+#pragma comment( lib, "ws2_32.lib" )
+#pragma comment( lib, "Crypt32.lib" )
+using namespace std;
 //mkexp MSPLoginBCB.lib MSPLogin.dll vc dll to bcb lib
 //what is clean code OAO
 cpr::Session session;

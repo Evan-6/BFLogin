@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
     <ClInclude Include="Login.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
